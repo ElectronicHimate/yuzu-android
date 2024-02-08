@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: Android10
     permissions: write-all
-    if: ${{github.repository == 'ElectronicHimate/yuzu-android' }}
+    if: ${{github.repository == 'SapphireRhodonite/yuzu-android' }}
     steps:
       - name: 'Show If New Chnages'
         run: echo ${{ needs.syncro.outputs.isUpdated }}
